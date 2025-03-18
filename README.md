@@ -12,7 +12,7 @@
 
 - **Managed Kubernetes Service (if using Kubernetes):**
   - GKE (Google Cloud), AKS (Azure), OpenShift, or self-managed Kubernetes.
-  - Control Plane: Managed service costs range from ~$70-$80/month.
+  - Control Plane: AKS costs $72 per month. GKE, AKS, DigitalOcean and Linode Control Plane is free
   - Worker Nodes: As above (2x VM instances with 2 vCPUs, 8 GB RAM).
   
 - **Alternative:** Docker Compose
