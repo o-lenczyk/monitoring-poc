@@ -1,4 +1,4 @@
-![Monitoring Architecture](monitoring.drawio.png)
+![Monitoring Architecture](monitoring.png)
 
 # Feasibility Check (POC Estimation) - Cloud Agnostic Version
 
