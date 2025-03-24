@@ -1,3 +1,5 @@
+![Monitoring Architecture](monitoring.drawio.png)
+
 # Feasibility Check (POC Estimation) - Cloud Agnostic Version
 
 ## 1. Compute
@@ -26,9 +28,9 @@
   - **Estimated Cost:** ~$2/month.
 
 - **Persistent Block Storage:** Persistent storage for Prometheus TSDB and Kubernetes volumes.
-  - Options: Google Persistent Disk, Azure Managed Disks, OpenEBS.
+  - Options: S3, Google Persistent Disk, Azure Managed Disks, OpenEBS.
   - ~50 GB General Purpose SSD per instance.
-  - **Estimated Cost:** ~$5/month per volume.
+  - **Estimated Cost:** ~$2-5/month per volume.
 
 ## 4. Networking
 
